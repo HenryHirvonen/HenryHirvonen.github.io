@@ -1,12 +1,315 @@
+
 <!doctype html>
-<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Henry Hirvonen — scientific machine learning, computational physics, and high-performance computing">
+  <title>Henry Hirvonen | Scientific ML, Simulation &amp; HPC</title>
+  <link href="style.css?v=4" rel="stylesheet">
+</head>
 
-<!DOCTYPE html>
+<body>
+<header class="nav wrap">
+  <a class="wordmark" href="#top">HH<span>.</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#work">Research</a>
+    <a href="#skills">Expertise</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Henry Hirvonen — scientific machine learning, computational physics, and high-performance computing" name="description"/><title>Henry Hirvonen | Scientific ML &amp; Computational Physics</title><link href="style.css?v=2" rel="stylesheet"/></head>
-<body><header class="nav wrap"><a class="wordmark" href="#top">HH<span>.</span></a><nav aria-label="Main navigation"><a href="#work">Research</a><a href="#skills">Expertise</a><a href="#about">About</a><a href="#contact">Contact</a></nav></header>
-<main id="top"><section class="hero wrap"><div class="eyebrow"><span class="dot"></span> COMPUTATIONAL PHYSICS / SCIENTIFIC MACHINE LEARNING</div><h1>Computational physics, simulation and <em>scientific machine learning.</em></h1><p class="lead">I'm Henry Hirvonen, a theoretical and computational physicist with a PhD and research experience spanning numerical simulations, machine-learning surrogates, Bayesian inference, and high-performance computing.</p><div class="actions"><a class="button" href="#work">Explore research <span>↗</span></a><a class="secondary" href="https://inspirehep.net/literature?sort=mostrecent&amp;size=25&amp;page=1&amp;q=f%20a%20henry%20hirvonen" rel="noopener noreferrer" target="_blank">Publications ↗</a></div><div class="stats"><div><strong>~5,000×</strong><span>Faster model evaluation</span></div><div><strong>15</strong><span>Parameters in Bayesian analysis</span></div><div><strong>Python / C++</strong><span>Scientific software &amp; HPC</span></div></div></section>
-<section class="work section" id="work"><div class="wrap"><div class="section-head"><div><span class="eyebrow">SELECTED WORK</span><h2>Research &amp; software</h2></div><p>Projects at the intersection of physical modeling, numerical methods, and machine learning.</p></div><div class="cards"><article class="project featured"><div class="project-meta">01 / DEEP LEARNING · SURROGATE MODELS</div><h3>DenseNet surrogate for physics simulations</h3><p>Developed and trained a convolutional neural-network surrogate for computationally expensive simulations, achieving approximately 5,000× faster model evaluation. The original code, models, and reproducibility materials are archived on Zenodo.</p><figure class="project-figure"><a class="figure-link" href="images/densenet.png" rel="noopener noreferrer" target="_blank"><img alt="Neural-network predictions compared with numerical simulations." decoding="async" loading="lazy" src="images/densenet.png"/></a><figcaption>Neural-network predictions compared with numerical simulations.</figcaption></figure><div class="tags"><span>TensorFlow</span><span>DenseNet</span><span>Scientific ML</span></div><a href="https://zenodo.org/records/20499599" rel="noopener noreferrer" target="_blank">Zenodo archive ↗</a></article><article class="project"><div class="project-meta">02 / PROBABILISTIC MODELING</div><h3>Surrogate-assisted Bayesian inference</h3><p>Contributed to a 15-parameter analysis of quark-gluon plasma properties using experimental heavy-ion collision data. My main contribution was training neural-network surrogates and generating data for Gaussian-process emulators.</p><figure class="project-figure"><a class="figure-link" href="images/shear.png" rel="noopener noreferrer" target="_blank"><img alt="Bayesian constraints on shear viscosity." decoding="async" loading="lazy" src="images/shear.png"/></a><figcaption>Bayesian constraints on shear viscosity.</figcaption></figure><div class="tags"><span>Bayesian inference</span><span>Gaussian processes</span><span>UQ</span></div><a href="https://arxiv.org/abs/2603.26413" rel="noopener noreferrer" target="_blank">Read the paper ↗</a></article><article class="project"><div class="project-meta">03 / NUMERICAL SOFTWARE · HPC</div><h3>High-performance simulation software</h3><p>Co-developed a C++/Kokkos relativistic hydrodynamics solver, contributing to finite-volume implementation, the equation of state, and numerical verification. This work is documented in our 2026 BDNK hydrodynamics preprint.</p><figure class="project-figure"><a class="figure-link" href="images/bdnk.png" rel="noopener noreferrer" target="_blank"><img alt="Relativistic hydrodynamics simulation." decoding="async" loading="lazy" src="images/bdnk.png"/></a><figcaption>Relativistic hydrodynamics simulation.</figcaption></figure><div class="tags"><span>C++</span><span>Kokkos</span><span>GPU/HPC</span></div><a href="https://arxiv.org/abs/2611.09582v1" rel="noopener noreferrer" target="_blank">BDNK preprint ↗</a></article><article class="project"><div class="project-meta">04 / ONGOING RESEARCH</div><h3>Neural operators for super-resolution</h3><p>Contributing to collaborative research on super-resolution of fluid-dynamics simulation data using Fourier Neural Operators and other reconstruction approaches.</p><div class="tags"><span>FNO</span><span>Fluid dynamics</span><span>Super-resolution</span></div><span class="muted-link">Ongoing collaborative work</span></article></div></div></section>
-<section class="section wrap" id="skills"><span class="eyebrow">TECHNICAL BACKGROUND</span><h2>Areas of expertise</h2><div class="skills"><div><h3>Scientific ML</h3><p>Deep neural networks, surrogate modeling, Gaussian processes, model evaluation, uncertainty quantification</p></div><div><h3>Numerical physics</h3><p>Relativistic hydrodynamics, numerical simulation, Monte Carlo methods, Bayesian parameter inference</p></div><div><h3>Computing</h3><p>Python, C/C++, TensorFlow, PyTorch, Linux, Git, Slurm, CUDA/PyCUDA, Kokkos</p></div></div></section>
-<section class="about section" id="about"><div class="wrap about-grid"><div><span class="eyebrow">ABOUT</span><h2>Research in computational physics.</h2></div><p>My work connects physical models with computational methods: from numerical simulation and scientific software to machine-learning acceleration and statistical inference. I completed postdoctoral research at Vanderbilt University following a PhD in theoretical physics at the University of Jyväskylä. I am interested in translating scientific computing methods into research and engineering applications.</p></div></section>
-<section class="contact section wrap" id="contact"><span class="eyebrow">CONNECT</span><h2>Get in touch.</h2><p>For research collaborations and opportunities in scientific ML, numerical simulation, or HPC.</p><div class="contact-links"><a href="https://inspirehep.net/literature?sort=mostrecent&amp;size=25&amp;page=1&amp;q=f%20a%20henry%20hirvonen" rel="noopener noreferrer" target="_blank">INSPIRE ↗</a><span>·</span><a href="https://www.linkedin.com/in/henry-hirvonen-689369376/" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a></div></section></main><footer class="wrap"><span>© 2026 Henry Hirvonen</span><span>Research portfolio · Hosted on GitHub Pages</span></footer></body></html>
+<main id="top">
+
+  <section class="hero wrap">
+    <div class="eyebrow">
+      <span class="dot"></span>
+      COMPUTATIONAL PHYSICS / SCIENTIFIC MACHINE LEARNING
+    </div>
+
+    <h1>Scientific machine learning and simulation for complex physical systems.</h1>
+
+    <p class="lead">
+      I develop numerical models and machine-learning tools for computationally
+      demanding physics problems. My work spans simulation software, surrogate
+      models, Bayesian inference, and high-performance computing.
+    </p>
+
+    <div class="actions">
+      <a class="button" href="#work">View projects ↗</a>
+      <a class="secondary"
+         href="https://inspirehep.net/literature?sort=mostrecent&amp;size=25&amp;page=1&amp;q=f%20a%20henry%20hirvonen"
+         target="_blank" rel="noopener noreferrer">
+        Publications ↗
+      </a>
+    </div>
+
+    <div class="stats">
+      <div>
+        <strong>~5,000×</strong>
+        <span>Faster model evaluation</span>
+      </div>
+      <div>
+        <strong>15</strong>
+        <span>Parameters in Bayesian analysis</span>
+      </div>
+      <div>
+        <strong>Python / C++</strong>
+        <span>Scientific software &amp; HPC</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="work section" id="work">
+    <div class="wrap">
+
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">SELECTED WORK</span>
+          <h2>Research &amp; software</h2>
+        </div>
+        <p>
+          Selected projects showing model development, validation,
+          and computational efficiency.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <!-- PROJECT 1 -->
+        <article class="project featured">
+          <div class="project-meta">
+            01 / DEEP LEARNING · SURROGATE MODELS
+          </div>
+
+          <h3>Neural-network surrogate for faster simulation</h3>
+
+          <p>
+            Developed and trained a DenseNet-based surrogate to reduce
+            the cost of numerical model evaluations. Achieved approximately
+            5,000× faster inference and validated predictions against
+            90,000 independent simulation events, including tests with
+            different initial conditions.
+          </p>
+
+          <figure class="project-figure">
+            <a class="figure-link" href="images/densenet.png"
+               target="_blank" rel="noopener noreferrer">
+              <img src="images/densenet.png"
+                   alt="Neural-network predictions compared with numerical simulations."
+                   loading="lazy" decoding="async">
+            </a>
+            <figcaption>
+              CNN predictions compared with the original simulation.
+            </figcaption>
+          </figure>
+
+          <div class="tags">
+            <span>TensorFlow</span>
+            <span>DenseNet</span>
+            <span>Scientific ML</span>
+          </div>
+
+          <a href="https://zenodo.org/records/20499599"
+             target="_blank" rel="noopener noreferrer">
+            Zenodo archive ↗
+          </a>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project">
+          <div class="project-meta">
+            02 / PROBABILISTIC MODELING
+          </div>
+
+          <h3>Machine learning for Bayesian parameter inference</h3>
+
+          <p>
+            Trained parameter-conditioned neural-network surrogates and
+            generated simulation datasets for Gaussian-process emulators.
+            This supported inference across 15 physical parameters.
+            I also contributed to interpreting the resulting constraints
+            and testing their sensitivity to added theoretical uncertainty.
+          </p>
+
+          <figure class="project-figure">
+            <a class="figure-link" href="images/shear.png"
+               target="_blank" rel="noopener noreferrer">
+              <img src="images/shear.png"
+                   alt="Bayesian constraints on shear viscosity."
+                   loading="lazy" decoding="async">
+            </a>
+            <figcaption>
+              Effect of assumed theoretical uncertainty on inferred shear viscosity.
+            </figcaption>
+          </figure>
+
+          <div class="tags">
+            <span>Bayesian inference</span>
+            <span>Gaussian processes</span>
+            <span>UQ</span>
+          </div>
+
+          <a href="https://arxiv.org/abs/2603.26413"
+             target="_blank" rel="noopener noreferrer">
+            Read the paper ↗
+          </a>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project">
+          <div class="project-meta">
+            03 / NUMERICAL SOFTWARE · HPC
+          </div>
+
+          <h3>Numerical solver development with C++ and Kokkos</h3>
+
+          <p>
+            Co-developed a relativistic hydrodynamics solver for CPU and
+            GPU architectures. My contributions included finite-volume
+            implementation, equation-of-state functionality, and numerical
+            verification using convergence tests and semi-analytical
+            solutions. The work is described in our 2026 BDNK preprint.
+          </p>
+
+          <figure class="project-figure">
+            <a class="figure-link" href="images/bdnk.png"
+               target="_blank" rel="noopener noreferrer">
+              <img src="images/bdnk.png"
+                   alt="Relativistic hydrodynamics simulation."
+                   loading="lazy" decoding="async">
+            </a>
+            <figcaption>
+              Snapshot from a relativistic hydrodynamics simulation.
+            </figcaption>
+          </figure>
+
+          <div class="tags">
+            <span>C++</span>
+            <span>Kokkos</span>
+            <span>GPU/HPC</span>
+          </div>
+
+          <a href="https://arxiv.org/abs/2611.09582v1"
+             target="_blank" rel="noopener noreferrer">
+            BDNK preprint ↗
+          </a>
+        </article>
+
+        <!-- PROJECT 4 -->
+        <article class="project">
+          <div class="project-meta">
+            04 / ONGOING RESEARCH
+          </div>
+
+          <h3>Neural operators for simulation super-resolution</h3>
+
+          <p>
+            Contributing to a collaborative study of methods for
+            reconstructing higher-resolution fluid-dynamics fields
+            from lower-resolution simulation data, including
+            Fourier Neural Operators.
+          </p>
+
+          <div class="tags">
+            <span>FNO</span>
+            <span>Fluid dynamics</span>
+            <span>Super-resolution</span>
+          </div>
+
+          <span class="muted-link">Ongoing collaborative work</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section wrap" id="skills">
+    <span class="eyebrow">TECHNICAL BACKGROUND</span>
+    <h2>Technical skills</h2>
+
+    <div class="skills">
+      <div>
+        <h3>Scientific ML</h3>
+        <p>
+          CNNs and neural operators, surrogate models, Gaussian processes,
+          model validation, uncertainty quantification
+        </p>
+      </div>
+
+      <div>
+        <h3>Numerical physics</h3>
+        <p>
+          PDE-based simulation, finite-volume methods,
+          relativistic hydrodynamics, Monte Carlo methods,
+          Bayesian inference
+        </p>
+      </div>
+
+      <div>
+        <h3>Computing</h3>
+        <p>
+          Python, C/C++, TensorFlow, PyTorch, Kokkos,
+          CUDA/PyCUDA, Linux, Git, Slurm
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <span class="eyebrow">ABOUT</span>
+        <h2>From physical models to working software.</h2>
+      </div>
+
+      <p>
+        I am a computational physicist with a PhD from the University
+        of Jyväskylä and postdoctoral research experience at
+        Vanderbilt University. I have worked on developing simulation
+        codes, accelerating numerical workflows with machine learning,
+        and evaluating the accuracy and uncertainty of model predictions.
+        I am interested in applying these methods to scientific and
+        industrial R&amp;D problems.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section wrap" id="contact">
+    <span class="eyebrow">CONNECT</span>
+    <h2>Contact</h2>
+
+    <p>
+      I'm interested in opportunities in scientific machine learning,
+      numerical simulation, high-performance computing, and industrial
+      R&amp;D. You can reach me through LinkedIn.
+    </p>
+
+    <div class="contact-links">
+      <a href="https://inspirehep.net/literature?sort=mostrecent&amp;size=25&amp;page=1&amp;q=f%20a%20henry%20hirvonen"
+         target="_blank" rel="noopener noreferrer">
+        INSPIRE ↗
+      </a>
+
+      <span>·</span>
+
+      <a href="https://www.linkedin.com/in/henry-hirvonen-689369376/"
+         target="_blank" rel="noopener noreferrer">
+        LinkedIn ↗
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Henry Hirvonen</span>
+  <span>Research portfolio · Hosted on GitHub Pages</span>
+</footer>
+
+</body>
+</html>
